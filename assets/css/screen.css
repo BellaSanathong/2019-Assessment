@@ -1,0 +1,116 @@
+/* sets the margins and padding for the whole html doc(s) to 0px */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* presets for the body element within the html doc(s) */
+body {
+	text-align: center;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #171717;
+	font-size: 16px;
+	line-height: 1.5em;
+	background-image: url("../img/bg-tile.jpg");
+	background-repeat: repeat-x;
+	background-color: #171717;
+}
+
+#container {
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	background-color: #FFF;
+	margin-top: 20px;
+	border: 1px solid #CCC;
+}
+
+.hide-text {
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+}
+
+#header {
+}
+#header h1 a {
+}
+#nav {
+	background-color: #000;
+}
+#nav ul {
+	list-style-type: none;
+	margin-left: 10px;
+}
+#nav ul li {
+	display: inline;
+	height: 35px;
+	line-height: 35px;
+}
+#nav ul li a {
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 18px;
+}
+#nav ul li a:link, #nav ul li a:visited {
+	text-decoration: none;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	color: #FFF;
+}
+#nav ul li a:hover {
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+#meme {
+	float: right;
+	border: 2px solid #d98029;
+	margin: auto;
+}
+#content {
+	margin: 20px;
+}
+#content p {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.alert {
+	background-color: #EBEBEB;
+	color: #4A4A4A;
+}
+#content h2 {
+	color: #487356;
+	font-size: 200%;
+	
+}
+#content h3 {
+	color: #304A47;
+	font-size: 150%;
+	
+}
+#content h4 {
+	color: #d98029;
+	font-size: 100%;
+	
+}
+
+#favlink:hover {
+	background-color: #FFB22C;
+}
+#footer {
+	background-color: #000;
+	color: #FFF;
+	height: 25px;
+}
+#footer h6 {
+	font-size: 12px;
+	line-height: 25px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
